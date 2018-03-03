@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, MyStartedService.class);
         intent.putExtra("Sleep Time", 10);
         startService(intent);
-
-        //FOR COMMIT
     }
 
     public void stopStartedService(View view) {
