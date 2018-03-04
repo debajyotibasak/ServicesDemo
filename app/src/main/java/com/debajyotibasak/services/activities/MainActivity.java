@@ -1,4 +1,4 @@
-package com.debajyotibasak.services;
+package com.debajyotibasak.services.activities;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -11,6 +11,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.debajyotibasak.services.services.MyIntentService;
+import com.debajyotibasak.services.services.MyStartedService;
+import com.debajyotibasak.services.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -71,7 +75,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startSecondActivity(View view) {
-        startActivity(new Intent(this, SecondActivity.class));
+        startActivity(new Intent(this, MyBoundActivity.class));
+    }
+
+    public void startMessengerActivity(View view) {
+        startActivity(new Intent(this, MyMessengerActivity.class));
     }
 
     //To receive data back from MyIntentService.class

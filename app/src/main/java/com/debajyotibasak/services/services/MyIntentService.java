@@ -1,4 +1,4 @@
-package com.debajyotibasak.services;
+package com.debajyotibasak.services.services;
 
 import android.app.IntentService;
 import android.content.Intent;

@@ -6,7 +6,7 @@
     android:gravity="center"
     android:layout_margin="20dp"
     android:orientation="vertical"
-    tools:context="com.debajyotibasak.services.MainActivity">
+    tools:context="com.debajyotibasak.services.activities.MainActivity">
 
     <CheckBox
         android:layout_width="match_parent"
@@ -60,5 +60,12 @@
         android:layout_height="wrap_content"
         android:text="Go to Second Activity"
         android:onClick="startSecondActivity"/>
+
+    <Button
+        android:id="@+id/btn_move_to_messenger_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to messenger Activity"
+        android:onClick="startMessengerActivity"/>
 
 </LinearLayout>

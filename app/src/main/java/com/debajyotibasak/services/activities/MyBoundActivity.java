@@ -1,4 +1,4 @@
-package com.debajyotibasak.services;
+package com.debajyotibasak.services.activities;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -11,11 +11,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.debajyotibasak.services.services.MyBoundService;
+import com.debajyotibasak.services.R;
+
 /**
  * Created by debajyotibasak on 04/03/18.
  */
 
-public class SecondActivity extends AppCompatActivity {
+public class MyBoundActivity extends AppCompatActivity {
 
     boolean isBound = false;
 
