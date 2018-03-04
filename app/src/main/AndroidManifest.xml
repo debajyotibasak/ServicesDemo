@@ -24,6 +24,12 @@
         <service
             android:name=".MyIntentService"
             android:exported="false" />
+
+        <service
+            android:name=".MyBoundService"
+            android:exported="false" />
+
+        <activity android:name=".SecondActivity"/>
     </application>
 
 </manifest>
